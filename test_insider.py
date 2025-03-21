@@ -149,5 +149,3 @@ while True:
         print("Aradığınız iş ilanı bulunamadı!")
         break
 
-# ✅ Tarayıcıyı açık bırak
-print("Tarayıcı açık bırakıldı, işlemi manuel kontrol edebilirsin.")
