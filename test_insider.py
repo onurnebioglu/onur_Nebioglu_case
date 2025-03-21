@@ -67,7 +67,7 @@ while True:
         print("'Istanbul, Turkiye' başarıyla seçildi!")
         break
     else:
-        print("❌ Yanlış seçim yapıldı, tekrar deniyoruz...")
+        print("Yanlış seçim yapıldı, tekrar deniyoruz...")
 
 # Department dropdown menüsünü aç ve "Quality Assurance" seç
 department_xpath = "//*[@id='select2-filter-by-department-container']"
@@ -92,11 +92,11 @@ while True:
     else:
         print(" Yanlış seçim yapıldı, tekrar deniyoruz...")
 
-# ✅ Filtrelerin uygulanmasını bekle
+#  Filtrelerin uygulanmasını bekle
 print("⏳ Filtre uygulandıktan sonra bekleniyor...")
 time.sleep(3)
 
-# ✅ İş ilanlarının yüklenmesini 30 saniye bekle
+# İş ilanlarının yüklenmesini 30 saniye bekle
 print("⏳ İş ilanlarının yüklenmesini bekliyoruz...")
 job_list_xpath = "//*[@id='jobs-list']/div[1]"
 
