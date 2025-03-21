@@ -93,11 +93,11 @@ while True:
         print(" Yanlış seçim yapıldı, tekrar deniyoruz...")
 
 #  Filtrelerin uygulanmasını bekle
-print("⏳ Filtre uygulandıktan sonra bekleniyor...")
+print(" Filtre uygulandıktan sonra bekleniyor...")
 time.sleep(3)
 
 # İş ilanlarının yüklenmesini 30 saniye bekle
-print("⏳ İş ilanlarının yüklenmesini bekliyoruz...")
+print(" İş ilanlarının yüklenmesini bekliyoruz...")
 job_list_xpath = "//*[@id='jobs-list']/div[1]"
 
 try:
